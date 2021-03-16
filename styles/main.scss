@@ -1,0 +1,62 @@
+@import "variables";
+@import "home";
+@import "portfolio";
+@import "about";
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body,
+  html {
+    font-size: 18px;
+    font-family: "Roboto Mono", monospace;
+    background: $oliveGreen;
+    height: 100%;
+  }
+  
+  .primary-btn {
+    background: $oliveGreen;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    text-align: center;
+    color: white;
+    padding: 12px 27px;
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-right: 15px;
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+  
+    &:hover {
+      cursor: pointer;
+      background: black;
+    }
+  }
+  
+  .ghost-btn {
+    border: 2px solid $oliveGreen;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    text-align: center;
+    color: $oliveGreen;
+    padding: 12px 27px;
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+  
+    &:hover {
+      cursor: pointer;
+      color: black;
+      border-color: black;
+    }
+  }
+  
+  
+
+ 

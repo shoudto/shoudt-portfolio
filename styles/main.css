@@ -1,0 +1,436 @@
+.home .logo {
+  height: 100px;
+  width: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #eaf2ef;
+  text-transform: uppercase;
+  word-spacing: -8px;
+}
+
+.home .logo img {
+  height: 150px;
+  width: 300px;
+  margin-bottom: 63px;
+}
+
+.home .info-section {
+  padding: 54px;
+  width: 35%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.home .info-section .info-box {
+  color: #eaf2ef;
+  position: absolute;
+  bottom: 60px;
+}
+
+.home .info-section .info-box h4 {
+  font-size: 0.8rem;
+  color: #eaf2ef;
+  margin: 0;
+  margin-bottom: 12px;
+}
+
+.home .info-section .info-box p {
+  font-size: 0.8rem;
+  color: #eaf2ef;
+  margin: 0.2rem 0 1rem;
+}
+
+.home .info-section .info-box .icon-section {
+  font-size: 19px;
+}
+
+.home .info-section .info-box .icon-section a {
+  color: white;
+  text-decoration: none;
+}
+
+.home .info-section .info-box .icon-section a:hover {
+  color: black;
+}
+
+.home .content-area {
+  margin-left: 21%;
+  width: 80%;
+  background: #f5f5f5;
+  height: 100%;
+}
+
+.home .content-area .profile-section {
+  vertical-align: top;
+  display: inline-block;
+  padding-top: 21%;
+  padding-left: 30%;
+}
+
+.home .content-area .profile-section .profile {
+  height: 300px;
+  max-width: 500px;
+}
+
+.home .content-area .profile-section .profile h1 {
+  font-size: 2.1rem;
+  font-weight: 500;
+  line-height: 1.1;
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+  word-spacing: -12px;
+}
+
+.home .content-area .profile-section .profile h1 span {
+  color: #606c38;
+}
+
+.home .content-area .profile-section .profile h5 {
+  font-weight: 500;
+  padding-left: 2px;
+  font-size: 1.2rem;
+  margin: 0 0 1.4rem;
+}
+
+.home .content-area .profile-section .profile p {
+  color: #2e2a2a;
+  font-weight: 300;
+  line-height: 1.4;
+  margin-bottom: 2rem;
+}
+
+.home .content-area .profile-section .profile p span {
+  font-weight: 700;
+}
+
+.portfolio .menu-icon {
+  cursor: pointer;
+  position: fixed;
+  right: 36px;
+  top: 36px;
+  padding: 20px;
+  z-index: 11;
+}
+
+.portfolio .menu-icon .fa,
+.portfolio .menu-icon .fas {
+  font-size: 1.5rem;
+  color: black;
+}
+
+.portfolio .menu-icon .fa:hover,
+.portfolio .menu-icon .fas:hover {
+  color: #606c38;
+}
+
+.portfolio .logo {
+  height: 100px;
+  width: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #eaf2ef;
+  text-transform: uppercase;
+  word-spacing: -8px;
+}
+
+.portfolio .logo img {
+  height: 150px;
+  width: 300px;
+  margin-bottom: 63px;
+}
+
+.portfolio .info-section {
+  padding: 54px;
+  width: 35%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.portfolio .info-section .info-box {
+  color: #eaf2ef;
+  position: absolute;
+  bottom: 60px;
+  position: fixed;
+}
+
+.portfolio .info-section .info-box h4 {
+  font-size: 0.8rem;
+  color: #eaf2ef;
+  margin: 0;
+  margin-bottom: 12px;
+}
+
+.portfolio .info-section .info-box p {
+  font-size: 0.8rem;
+  color: #eaf2ef;
+  margin: 0.2rem 0 1rem;
+}
+
+.portfolio .info-section .info-box .icon-section {
+  font-size: 19px;
+}
+
+.portfolio .info-section .info-box .icon-section a {
+  color: white;
+  text-decoration: none;
+}
+
+.portfolio .info-section .info-box .icon-section a:hover {
+  color: black;
+}
+
+.portfolio .work-section {
+  margin-left: 21%;
+  width: 80%;
+  background: #f5f5f5;
+  height: 200%;
+}
+
+.portfolio .work-section img {
+  height: 200px;
+  width: 366px;
+}
+
+.portfolio .work-section .projects {
+  padding-top: 110px;
+  padding-left: 92px;
+  margin-left: 0%;
+  width: 89%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  grid-gap: 50px;
+}
+
+.portfolio .work-section .projects h1 {
+  font-weight: 700;
+}
+
+.portfolio .work-section .projects h1,
+.portfolio .work-section .projects img,
+.portfolio .work-section .projects p,
+.portfolio .work-section .projects a {
+  margin-bottom: 12px;
+}
+
+.about .menu-icon {
+  cursor: pointer;
+  position: fixed;
+  right: 36px;
+  top: 36px;
+  padding: 20px;
+  z-index: 11;
+}
+
+.about .menu-icon .fa,
+.about .menu-icon .fas {
+  font-size: 1.5rem;
+  color: black;
+}
+
+.about .menu-icon .fa:hover,
+.about .menu-icon .fas:hover {
+  color: #606c38;
+}
+
+.about .logo {
+  height: 100px;
+  width: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #eaf2ef;
+  text-transform: uppercase;
+  word-spacing: -8px;
+}
+
+.about .logo img {
+  height: 150px;
+  width: 300px;
+  margin-bottom: 63px;
+}
+
+.about .info-section {
+  padding: 54px;
+  width: 35%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.about .info-section .info-box {
+  color: #eaf2ef;
+  position: absolute;
+  bottom: 60px;
+}
+
+.about .info-section .info-box h4 {
+  font-size: 0.8rem;
+  color: #eaf2ef;
+  margin: 0;
+  margin-bottom: 12px;
+}
+
+.about .info-section .info-box p {
+  font-size: 0.8rem;
+  color: #eaf2ef;
+  margin: 0.2rem 0 1rem;
+}
+
+.about .info-section .info-box .icon-section {
+  font-size: 19px;
+}
+
+.about .info-section .info-box .icon-section a {
+  color: white;
+  text-decoration: none;
+}
+
+.about .info-section .info-box .icon-section a:hover {
+  color: black;
+}
+
+.about .content-area {
+  margin-left: 21%;
+  width: 80%;
+  background: #f5f5f5;
+  height: 100%;
+}
+
+.about .content-area .profile-section {
+  vertical-align: top;
+  display: inline-block;
+  padding-top: 7%;
+  padding-left: 23%;
+}
+
+.about .content-area .profile-section .profile {
+  height: 300px;
+  max-width: 866px;
+}
+
+.about .content-area .profile-section .profile h1 {
+  font-size: 2.1rem;
+  font-weight: 500;
+  line-height: 1.1;
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+  word-spacing: -12px;
+}
+
+.about .content-area .profile-section .profile h1 span {
+  color: #606c38;
+}
+
+.about .content-area .profile-section .profile h5 {
+  font-weight: 500;
+  padding-left: 2px;
+  font-size: 1.2rem;
+  margin: 0 0 1.4rem;
+}
+
+.about .content-area .profile-section .profile .bio {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 304px 279px;
+      grid-template-columns: 304px 279px;
+}
+
+.about .content-area .profile-section .profile .bio img {
+  height: 500px;
+}
+
+.about .content-area .profile-section .profile .bio p {
+  color: #2e2a2a;
+  font-weight: 300;
+  line-height: 1.4;
+  font-size: 13.5px;
+  font-weight: 400;
+  margin: 0;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body,
+html {
+  font-size: 18px;
+  font-family: "Roboto Mono", monospace;
+  background: #606c38;
+  height: 100%;
+}
+
+.primary-btn {
+  background: #606c38;
+  border-radius: 30px;
+  text-align: center;
+  color: white;
+  padding: 12px 27px;
+  display: inline-block;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-right: 15px;
+  text-decoration: none;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.primary-btn:hover {
+  cursor: pointer;
+  background: black;
+}
+
+.ghost-btn {
+  border: 2px solid #606c38;
+  border-radius: 30px;
+  text-align: center;
+  color: #606c38;
+  padding: 12px 27px;
+  display: inline-block;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-decoration: none;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.ghost-btn:hover {
+  cursor: pointer;
+  color: black;
+  border-color: black;
+}
+/*# sourceMappingURL=main.css.map */

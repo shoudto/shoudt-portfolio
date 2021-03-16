@@ -1,0 +1,137 @@
+.about {
+    .menu-icon {
+        cursor: pointer;
+        position: fixed;
+        right: 36px;
+        top: 36px;
+        padding: 20px;
+        z-index: 11;
+  
+    .fa,
+    .fas {
+      font-size: 1.5rem;
+      color: black;
+
+      &:hover {
+        color: #606c38;
+      }
+    }
+  }
+  
+    .logo {
+    //   border: 4px solid $mintCream;
+      height: 100px;
+      width: 200px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 1.4rem;
+      font-weight: 700;
+      color: $mintCream;
+      text-transform: uppercase;
+      word-spacing: -8px;
+      
+      img{
+        height: 150px;
+        width: 300px;
+        margin-bottom: 63px
+      }
+    }
+  
+    .info-section {
+      padding: 54px;
+      width: 35%;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+  
+      .info-box {
+        color: $mintCream;
+        position: absolute;
+        bottom: 60px;
+        h4 {
+          font-size: 0.8rem;
+          color: $mintCream;
+          margin: 0;
+          margin-bottom: 12px;
+        }
+  
+        p {
+          font-size: 0.8rem;
+          color: $mintCream;
+          margin: 0.2rem 0 1rem;
+        }
+  
+        .icon-section {
+          font-size: 19px;
+  
+          a {
+            color: white;
+            text-decoration: none;
+  
+            &:hover {
+              color: black;
+            }
+          }
+        }
+      }
+    }
+  
+    .content-area {
+      margin-left: 21%;
+      width: 80%;
+      background: #f5f5f5;
+      height: 100%;
+      // padding: 0 0 0 25%;
+  
+      .profile-section {
+        vertical-align: top;
+        display: inline-block;
+        padding-top: 7%;
+        padding-left: 23%;
+  
+        .profile {
+          height: 300px;
+          max-width: 866px;
+          h1 {
+            font-size: 2.1rem;
+            font-weight: 500;
+            line-height: 1.1;
+            margin-bottom: 0.5rem;
+            text-transform: uppercase;
+            word-spacing: -12px;
+  
+            span {
+              color: $oliveGreen;
+            }
+          }
+  
+          h5 {
+            font-weight: 500;
+            padding-left: 2px;
+            font-size: 1.2rem;
+            margin: 0 0 1.4rem;
+          }
+
+          .bio{
+              display: grid;
+              grid-template-columns: 304px 279px;
+              img{
+                height: 500px;
+            }
+    
+      
+              p {
+                color: rgb(46, 42, 42);
+                font-weight: 300;
+                line-height: 1.4;
+                font-size: 13.5px;
+                font-weight: 400;
+                margin: 0;
+              }
+          }
+        }
+      }
+    }
+  }
