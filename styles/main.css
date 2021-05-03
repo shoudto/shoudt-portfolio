@@ -222,8 +222,8 @@
   width: 89%;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1fr 1fr;
-      grid-template-columns: 1fr 1fr;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
   grid-gap: 50px;
 }
 
@@ -236,6 +236,19 @@
 .portfolio .work-section .projects p,
 .portfolio .work-section .projects a {
   margin-bottom: 12px;
+}
+
+.portfolio .work-section a {
+  color: #0a2563;
+  text-decoration: none;
+  border: 1px solid #0a2563;
+  padding: 1px 10px;
+  border-radius: 20px;
+}
+
+.portfolio .work-section a:hover {
+  background-color: #0a2563;
+  color: #eaf2ef;
 }
 
 .about .menu-icon {
