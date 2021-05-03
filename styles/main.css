@@ -15,6 +15,7 @@
   color: #eaf2ef;
   text-transform: uppercase;
   word-spacing: -8px;
+  cursor: pointer;
 }
 
 .home .logo img {
@@ -93,7 +94,7 @@
 }
 
 .home .content-area .profile-section .profile h1 span {
-  color: #606c38;
+  color: #0a2563;
 }
 
 .home .content-area .profile-section .profile h5 {
@@ -131,7 +132,7 @@
 
 .portfolio .menu-icon .fa:hover,
 .portfolio .menu-icon .fas:hover {
-  color: #606c38;
+  color: #0a2563;
 }
 
 .portfolio .logo {
@@ -151,6 +152,7 @@
   color: #eaf2ef;
   text-transform: uppercase;
   word-spacing: -8px;
+  cursor: pointer;
 }
 
 .portfolio .logo img {
@@ -253,7 +255,7 @@
 
 .about .menu-icon .fa:hover,
 .about .menu-icon .fas:hover {
-  color: #606c38;
+  color: #0a2563;
 }
 
 .about .logo {
@@ -273,6 +275,7 @@
   color: #eaf2ef;
   text-transform: uppercase;
   word-spacing: -8px;
+  cursor: pointer;
 }
 
 .about .logo img {
@@ -351,7 +354,7 @@
 }
 
 .about .content-area .profile-section .profile h1 span {
-  color: #606c38;
+  color: #0a2563;
 }
 
 .about .content-area .profile-section .profile h5 {
@@ -825,6 +828,8 @@
 
 /* Landscape */
 * {
+  padding: 0;
+  margin: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -833,12 +838,12 @@ body,
 html {
   font-size: 18px;
   font-family: "Roboto Mono", monospace;
-  background: #606c38;
-  height: 100%;
+  background: #0a2563;
+  height: 100vh;
 }
 
 .primary-btn {
-  background: #606c38;
+  background: #0a2563;
   border-radius: 30px;
   text-align: center;
   color: white;
@@ -858,10 +863,10 @@ html {
 }
 
 .ghost-btn {
-  border: 2px solid #606c38;
+  border: 2px solid #0a2563;
   border-radius: 30px;
   text-align: center;
-  color: #606c38;
+  color: #0a2563;
   padding: 12px 27px;
   display: inline-block;
   text-transform: uppercase;
